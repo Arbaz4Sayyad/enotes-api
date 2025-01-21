@@ -2,11 +2,13 @@ package in.arbii.entity;
 
 import java.util.Date;
 
+import jakarta.persistence.MappedSuperclass;
 import lombok.Getter;
 import lombok.Setter;
 
 @Setter
 @Getter
+@MappedSuperclass
 public class BaseModel {
 	
 	/*
